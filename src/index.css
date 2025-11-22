@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small custom utilities */
+html, body, #root {
+  height: 100%;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px white;
+}
