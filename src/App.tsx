@@ -75,7 +75,7 @@ const App: React.FC = () => {
                 Of Gujarat
               </h1>
               <p className="text-neutral-400 max-w-md text-lg leading-relaxed">
-                2x National Champion. Aggressive Baseliner. Representing India on the global stage with unyielding grit.
+                5x National Champion. Aggressive Baseliner. Representing India on the global stage with unyielding grit.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <a href="#contact" className="bg-yellow-500 text-black px-8 py-4 font-bold uppercase tracking-wider hover:bg-white transition-colors duration-300">
@@ -90,7 +90,7 @@ const App: React.FC = () => {
             <div className="order-1 md:order-2 h-[50vh] md:h-full relative flex items-end justify-center">
               <figure className="relative w-full max-w-lg aspect-[3/4] md:aspect-auto md:h-[85%] bg-neutral-800/50 rounded-lg overflow-hidden border border-white/5 flex items-center justify-center group">
                 <img
-                  src="https://images.unsplash.com/photo-1599586120429-4828d5dabb04?q=80&w=2500&auto=format&fit=crop"
+                  src="/assets/Vaidehi_Chaudhari.jpg"
                   alt="Vaidehi Chaudhari playing a tennis match"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-700 grayscale hover:grayscale-0"
                 />
@@ -109,7 +109,7 @@ const App: React.FC = () => {
               {[
                 { label: 'Career High', value: '#355', icon: Globe },
                 { label: 'ITF Titles', value: '08', icon: Trophy },
-                { label: 'National Titles', value: '02', icon: Activity },
+                { label: 'National Titles', value: '06', icon: Activity },
                 { label: 'Pro Wins', value: '145+', icon: Target },
               ].map((stat, idx) => (
                 <div key={idx} className="text-center group">
@@ -129,9 +129,9 @@ const App: React.FC = () => {
             <div className="relative">
               <div className="absolute top-4 left-4 w-full h-full border-2 border-yellow-500/30 z-0" aria-hidden />
               <img
-                src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=2000&auto=format&fit=crop"
+                src="/assets/2.jpg"
                 alt="Vaidehi training on court"
-                className="relative z-10 w-full h-[500px] object-cover filter grayscale contrast-125"
+                className="relative z-10 w-full h-full object-cover filter grayscale contrast-125"
               />
             </div>
             <div className="space-y-8">
@@ -178,12 +178,8 @@ const App: React.FC = () => {
 
           <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="md:col-span-2 md:row-span-2 group relative overflow-hidden h-[400px] md:h-[600px]">
-              <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?q=80&w=2000&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Match point celebration" />
+              <img src="https://media.gettyimages.com/id/2189016138/photo/tennis-serve-and-woman-on-outdoor-court-with-challenge-performance-and-action-game-from-above.jpg?s=612x612&w=0&k=20&c=MqFObZywkzwjS5A1vNN89RUNBM0nf5ho4iTC6YmnEQA=" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Match point celebration" />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
-                <div className="text-center">
-                  <h3 className="text-3xl font-black uppercase italic text-transparent text-stroke">ITF Tour 2024</h3>
-                  <p className="text-white/80 text-sm tracking-widest mt-2 uppercase">Brisbane • Ahmedabad • Delhi</p>
-                </div>
               </div>
             </div>
 
@@ -207,7 +203,7 @@ const App: React.FC = () => {
             </a>
 
             <div className="mt-20 pt-10 border-t border-white/10 flex justify-center space-x-8">
-              <a href="https://instagram.com" target="_blank" rel="noreferrer noopener" className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all duration-300">
+              <a href="https://www.instagram.com/vaidehee_official0/" target="_blank" rel="noreferrer noopener" className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all duration-300">
                 <Instagram size={32} aria-hidden />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noreferrer noopener" className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all duration-300">
